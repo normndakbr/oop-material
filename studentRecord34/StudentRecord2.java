@@ -11,7 +11,7 @@ public class StudentRecord2 {
     private double average;
     private static int studentCount;
 
-    public StudentRecord2() { // constructor default
+    public StudentRecord2() {
         studentCount++;
     }
 
@@ -33,16 +33,10 @@ public class StudentRecord2 {
         studentCount++;
     }
 
-    /*
-     * Menghasilkan nama dari siswa
-     */
     public String getName() {
         return name;
     }
 
-    /*
-     * mengubah nama siswa
-     */
     public void setName(String temp) {
         name = temp;
     }
@@ -63,10 +57,6 @@ public class StudentRecord2 {
         age = temp;
     }
 
-    // area penulisan kode lain
-    /*
-     * Menghitung rata-rata nilai Matematika, Bahasa Inggris, Ilmu Pengetahuan
-     */
     public double getAverage() {
         double result = 0;
         result = (mathGrade + englishGrade + scienceGrade) / 3;

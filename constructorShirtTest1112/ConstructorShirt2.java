@@ -3,11 +3,11 @@
 package constructorShirtTest1112;
 
 public class ConstructorShirt2 {
-    private int idBaju = 0; // ID default untuk baju
-    private String keterangan = "-Keterangan Diperlukan-"; // default
-    private char kodewarna = 'U'; // Kode warna R=Merah, G=Hijau, B=Biru, U=Tidak Ditentukan
-    private double harga = 0.0; // Harga default untuk semua barang
-    private int jmlStok = 0; // Default untuk jumlah barang
+    private int idBaju = 0;
+    private String keterangan = "-Keterangan Diperlukan-";
+    private char kodewarna = 'U';
+    private double harga = 0.0;
+    private int jmlStok = 0;
 
     public ConstructorShirt2() {
         kodewarna = 'R';
@@ -50,5 +50,4 @@ public class ConstructorShirt2 {
     public int getJmlStok() {
         return jmlStok;
     }
-    // akhir kelas
 }
